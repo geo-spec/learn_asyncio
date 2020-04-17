@@ -1,8 +1,8 @@
 import asyncio
 
 async def main():
-    print('hello')
+    print('one')
     await asyncio.sleep(10)
-    print('world')
+    print('two')
 
 asyncio.run(main())
